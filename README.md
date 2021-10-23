@@ -21,4 +21,25 @@ Scheduling algorithms decide in which order should the processes be scheduled on
     </li>
 </ol>
 
+<h2>Now Let's take a look at the algorithms used</h2>
+
+<ol>
+    <li>
+        <h3> <a href="https://www.geeksforgeeks.org/program-for-fcfs-cpu-scheduling-set-1/">FCFS(First Come First Serve)</a></h3>
+        <p></p>
+    </li>
+    <li>
+        <h3><a href="https://www.geeksforgeeks.org/program-shortest-job-first-sjf-scheduling-set-1-non-preemptive/">SJF(Shortest Job First)</a></h3>
+        <p></p>
+    </li>
+    <li>
+        <h3><a href="https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/">Round Robin</a></h3>
+        <p></p>
+    </li>
+    <li>
+        <h3><a href="https://www.geeksforgeeks.org/program-priority-scheduling-set-1/">Priority Scheduling</a></h3>
+        <p></p>
+    </li>
+    
+</ol>
 
