@@ -104,8 +104,7 @@ Scheduling algorithms decide in which order should the processes be scheduled on
             </ul>
             <li><h3>Example</h3></li>
             <img src="https://github.com/NidhayPancholi/Scheduling-algo-simulator/blob/main/round-robin-1.jpg">
-            <li><h3>Implmentation</h3></li>
-        </ul>    
+            </ul>    
     </li>
     <li>
         <h2>Priority Scheduling</h2>
