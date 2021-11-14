@@ -44,7 +44,8 @@ Scheduling algorithms decide in which order should the processes be scheduled on
                 <li>There is no ideal technique for time-sharing systems.</li>
                 <li>It is not very efficient.</li>
             </ul>
-            <li><h3>Example</h3></li>   
+            <li><h3>Example</h3></li> 
+            <img src= ""
             <li><h3>Implementation</h3></li>
             <ol>
                 <li>Input the processes along with their burst time (bt).</li>
