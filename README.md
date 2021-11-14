@@ -26,7 +26,7 @@ Scheduling algorithms decide in which order should the processes be scheduled on
     </li>
 </ol>
 
-<h2>Now the algorithms used here are:</h2>
+<h2>Now the algorithms we implemented are:</h2>
 
 <ol>
     <li>
@@ -82,12 +82,55 @@ Scheduling algorithms decide in which order should the processes be scheduled on
         </ul>
     </li>
     <li>
-        <h3><a href="https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/">Round Robin</a></h3>
-        <p></p>
+        <h2>Round Robin</h2>
+        <p>RR is a CPU scheduling algorithm where each process is assigned a fixed time slot in a cyclic way, where each process gets equal share in time processing. RR is a hybrid model which is clock-driven. In this, CPU is shifted to the next process after fixed interval time, which is called time quantum/time slice. Time slice should be minimum, which is assigned for a specific task that needs to be processed. However, it may differ OS to OS.</p>
+        <ul type="square">
+            <li><h3>Advantage</h3></li>
+            <ul type="circle">
+                <li>A round-robin scheduler generally employs time-sharing, giving each job a time slot or quantum.</li>
+                <li>Each process get a chance to reschedule after a particular quantum time in this scheduling.</li>
+                <li>All the jobs get a fair allocation of CPU.</li>
+                <li>It deals with all process without any priority.</li>
+                <li>This scheduling method does not depend upon burst time. That’s why it is easily implementable on the system.</li>
+                <li>It gives the best performance in terms of average response time.</li>
+            </ul>
+            <li><h3>Disadvantage</h3></li>
+            <ul type="circle">
+                <li>Gantt chart seems to come too big (if quantum time is less for scheduling.For Example:1 ms for big scheduling.)</li>
+                <li>There is low throughput and context switches.</li>
+                <li>Lower time quantum results in higher the context switching overhead in the system.</li>
+                <li>Finding a correct time quantum is a quite difficult task in this system.</li>
+                <li>If slicing time of OS is low, the processor output will be reduced.</li>
+            </ul>
+            <li><h3>Example</h3></li>
+            <img src="https://github.com/NidhayPancholi/Scheduling-algo-simulator/blob/main/round-robin-1.jpg">
+            <li><h3>Implmentation</h3></li>
+        </ul>    
     </li>
     <li>
-        <h3><a href="https://www.geeksforgeeks.org/program-priority-scheduling-set-1/">Priority Scheduling</a></h3>
+        <h2>Priority Scheduling</h2>
         <p></p>
+         <ul type="square">
+            <li><h3>Advantage</h3></li>
+            <ul type="circle">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <li><h3>Disadvantage</h3></li>
+            <ul type="circle">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <li><h3>Example</h3></li>
+            <li><h3>Implmentation</h3></li>
+        </ul>    
     </li>
     
 </ol>
