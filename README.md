@@ -109,27 +109,31 @@ Scheduling algorithms decide in which order should the processes be scheduled on
     </li>
     <li>
         <h2>Priority Scheduling</h2>
-        <p></p>
+        <p>Priority Scheduling is a method of scheduling processes that is based on priority. In this algorithm, the scheduler selects the tasks to work as per the priority. The processes with higher priority should be carried out first, whereas jobs with equal priorities are carried out on a round-robin or FCFS basis. Priority depends upon memory requirements, time requirements, etc.</p>
          <ul type="square">
             <li><h3>Advantage</h3></li>
             <ul type="circle">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Processes are executed on the basis of priority so high priority does not need to wait for long which saves time</li>
+                <li>Easy to use scheduling method</li>
+                <li>Suitable for applications with fluctuating time and resource requirements.</li>
+                <li>This method provides a good mechanism where the relative important of each process may be precisely defined.</li>
             </ul>
             <li><h3>Disadvantage</h3></li>
             <ul type="circle">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>If high priority processes take lots of CPU time, then the lower priority processes may starve and will be postponed for an indefinite time.</li>
+                <li>This scheduling algorithm may leave some low priority processes waiting indefinitely.</li>
+                <li>A process will be blocked when it is ready to run but has to wait for the CPU because some other process is running currently.</li>
+                <li>If a new higher priority process keeps on coming in the ready queue, then the process which is in the waiting state may need to wait for a long duration of time.</li>
+                <li>If the system eventually crashes, all low priority processes get lost.</li>
             </ul>
             <li><h3>Example</h3></li>
+             <img src="https://github.com/NidhayPancholi/Scheduling-algo-simulator/blob/main/PRIORITYsCHEDULING.jpg">
             <li><h3>Implmentation</h3></li>
+             <ol>
+                 <li>First input the processes with their burst time and priority.</li>
+                 <li>Sort the processes, burst time and priority according to the priority.</li>
+                 <li>Now simply apply FCFS/RR algorithm.</li>
+             </ol>
         </ul>    
     </li>
     
