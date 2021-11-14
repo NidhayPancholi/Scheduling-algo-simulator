@@ -45,7 +45,7 @@ Scheduling algorithms decide in which order should the processes be scheduled on
                 <li>It is not very efficient.</li>
             </ul>
             <li><h3>Example</h3></li> 
-            <img src= ""
+            <img src= "https://github.com/NidhayPancholi/Scheduling-algo-simulator/blob/main/FCFS.png">
             <li><h3>Implementation</h3></li>
             <ol>
                 <li>Input the processes along with their burst time (bt).</li>
