@@ -59,8 +59,27 @@ Scheduling algorithms decide in which order should the processes be scheduled on
         </ul>
     </li>
     <li>
-        <h3><a href="https://www.geeksforgeeks.org/program-shortest-job-first-sjf-scheduling-set-1-non-preemptive/">SJF(Shortest Job First)</a></h3>
-        <p></p>
+        <h2>SJF(Shortest Job First)</h2>
+        <p>SJF scheduling algorithm, schedules the processes according to their burst time. The process having the smallest execution time is chosen for the next execution. It reduces the average waiting time for other processes awaiting execution. It is associated with each job as a unit of time to complete.It can improve process throughput by making sure that shorter jobs are executed first, hence possibly have a short turnaround time.</p>
+        <ul type="square">
+            <li><h3>Advantage</h3></li>
+            <ul type="circle">
+                <li>Works for both preemptive and non-preemptive.</li>
+                <li>Frequently used for long term scheduling.</li>
+                <li>Reduces the average waiting time over FIFO algorithm.</li>
+                <li>This method is helpful for batch-type processing, where waiting for jobs to complete is not critical.</li>
+                <li>Optimal with regard to average turn around time.</li>
+            </ul>
+            <li><h3>Disadvantage</h3></li>
+            <ul type="circle">
+                <li>SJF can’t be implemented for CPU scheduling for the short term. It is because there is no specific method to predict the length of the upcoming CPU burst.</li>
+                <li>Requires knowledge of how long a process or job will run.</li>
+                <li>It leads to the starvation that does not reduce average turnaround time.</li>
+                <li>It is hard to know the length of the upcoming CPU request.</li>
+            </ul>
+            <li><h3>Example</h3></li>
+            <img src="https://github.com/NidhayPancholi/Scheduling-algo-simulator/blob/main/SJF.jpg">
+        </ul>
     </li>
     <li>
         <h3><a href="https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/">Round Robin</a></h3>
