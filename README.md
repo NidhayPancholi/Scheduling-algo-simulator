@@ -28,8 +28,7 @@ Scheduling algorithms decide in which order should the processes be scheduled on
         <h3>Dynamic Prediction</h3>
         <p>The Burst time is predicted using the burst times of previously scheduled processes.</p>
         <p><b>Moving Average: </b> The algorithms predicts the burst time to be the average of the past k processes. The value of k can be varied which will result in different predictions.</p>
-        
-    </li>
+     </li>
 </ol>
 
 <h2>Now the algorithms we implemented are:</h2>
