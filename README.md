@@ -13,6 +13,9 @@ Scheduling algorithms decide in which order should the processes be scheduled on
 <h3>How to execute our project??</h3>
 <p>First download the Jupyter Notebook and run all the cells. After the successful execution of the cells the link of streamlit will be generated. Open the link and choose the algorithm, enter the times and all data required. And Execute the Algorithm. You will get gant chart of the provided data as a result. Also you can compare two algorithms. </p>
 
+<h3>You can also edit!!!</h3>
+<p>For each and every algorithm you can make a function for that particular algorithm. After editing again you have to run all the cells and link for the updated dashboard will be generated.</p>
+
 <h2>Types of scheduling algorithms</h2>
 <ol>
     <li>
